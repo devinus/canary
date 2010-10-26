@@ -44,6 +44,8 @@ assert.strictEqual(tree.add(4),  node4,  "tree.add(4) !== node4");
 assert.strictEqual(tree.add(7),  node7,  "tree.add(7) !== node7");
 assert.strictEqual(tree.add(13), node13, "tree.add(13) !== node13");
 
+assert.strictEqual(tree.search(8), node8, "tree.search(8) !== node8");
+
 //
 //      8
 //     / \
