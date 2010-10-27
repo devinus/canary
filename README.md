@@ -9,7 +9,7 @@ a learning experience.
     $ cd /path/to/canary
     $ node repl.js
     canary> var tree = new BinarySearchTree();
-    canary> tree.addAll(9, 5, 2, 4, 6);
+    canary> tree.addAll([9, 5, 2, 4, 6]);
     canary> var node2 = tree.find(2);
     canary> node2
     { left: null,
