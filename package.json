@@ -1,0 +1,13 @@
+{
+  "name": "canary",
+  "version": "0.1.0",
+  "description": "A passerine CommonJS binary search tree implementation",
+  "site": "http://github.com/devinus/canary",
+  "author": "Devin Torres <devin@devintorres.com>",
+
+  "repositories": [
+    { "type": "git", "url": "git://github.com/canary/winked.git" }
+  ],
+
+  "licenses": [{ "type": "MIT" }]
+}
